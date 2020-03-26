@@ -19,6 +19,11 @@ p{margin:0px;}
 .profile-social-links li a:before{display:block;content:"";background:rgba(0, 0, 0, 0.3);position:absolute;left:0px;top:0px;width:36px;height:36px;opacity:1;-webkit-transition:transform 0.4s ease, opacity 1s ease-out;transition:transform 0.4s ease, opacity 1s ease-out;-webkit-transform:scale3d(0, 0, 1);transform:scale3d(0, 0, 1);-webkit-border-radius:50%;border-radius:50%;}
 .profile-social-links li a:hover:before{-webkit-animation:ripple 1s ease forwards;animation:ripple 1s ease forwards;}
 .profile-social-links li a img, .profile-social-links li a svg{width:24px;}
+ul.profile-social-links >* {
+    margin: 10px;
+}
+
+
 @-webkit-keyframes init{0%{width:0px;height:0px;}
 100%{width:56px;height:56px;margin-top:0px;opacity:1;}
 }
