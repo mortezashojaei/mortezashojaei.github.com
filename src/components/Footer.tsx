@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
               
               <div className="flex items-center space-x-2 text-gray-400 mb-4">
                 <MapPin className="w-4 h-4" />
-                <span>Tehran, Iran • Working Remotely</span>
+                <span>London, UK</span>
               </div>
               
               <div className="flex space-x-4">
@@ -169,7 +169,7 @@ const Footer: React.FC = () => {
             <Heart className="w-4 h-4 text-persian-rose" />
             <span>and</span>
             <Coffee className="w-4 h-4 text-persian-gold" />
-            <span>in Tehran</span>
+            <span>in London</span>
           </motion.div>
           
           <motion.div
